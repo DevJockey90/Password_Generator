@@ -1,0 +1,82 @@
+body{
+    background-color: #233;
+    color: rgb(112, 56, 56);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background-color: teal;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 15px black;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.title{
+   text-align: center;
+   margin: 0; 
+}
+
+.passwordDisplay{
+    background-color: rgb(119, 187, 187);
+    color: black;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: .5rem;
+    height: 2rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+.charAmountContain{
+    display: flex;
+    align-items: center;
+}
+
+.numberInput{
+    width: 2rem;
+}
+
+.btn{
+  grid-column: span 2;
+  background-color: rgba(119, 187, 187, 0.342);  
+  border: 2px solid;
+  color: rgb(7, 7, 7);
+  padding: .5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+  background-color:  rgb(119, 187, 187);
+  transform: scale(1.02);  
+}
